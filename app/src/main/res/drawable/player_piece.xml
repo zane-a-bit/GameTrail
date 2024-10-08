@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_piece"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- The red circle for the checker piece -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M 12, 12 m -10, 0 a 10, 10 0 1, 0 20, 0 a 10, 10 0 1, 0 -20, 0" />
+
+    <!-- A small white circle in the center to give it a 3D effect -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 12, 12 m -4, 0 a 4, 4 0 1, 0 8, 0 a 4, 4 0 1, 0 -8, 0" />
+</vector>
